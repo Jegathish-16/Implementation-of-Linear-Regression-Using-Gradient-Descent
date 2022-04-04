@@ -46,7 +46,7 @@ plt.show()
 # For testing data
 plt.scatter(x_test,y_test,color='black')
 plt.plot(x_test,regressor.predict(x_test),color='purple')
-plt.title("Hours vs Scores (Training set)")
+plt.title("Hours vs Scores (Test set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
