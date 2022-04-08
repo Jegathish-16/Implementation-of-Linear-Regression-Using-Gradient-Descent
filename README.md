@@ -61,7 +61,7 @@ plt.title("Study hours vs Scores")
 plt.show()
 
 #Plotting Gradient Decent Graph
-plt.plot(loss, color="skyblue")
+plt.plot(loss, color="red")
 plt.xlabel("Iterations")
 plt.ylabel("Loss")
 plt.show()
